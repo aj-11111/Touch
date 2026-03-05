@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function handleMessScannerClick(e) {
     e.preventDefault();
-    if (window.currentUserTokens > 0) {
+    if (window.currentUserTokens >= 0) {
       showPage(messCouponPage);
     } else {
       showCustomAlert("You don't have sufficient tokens");
