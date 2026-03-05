@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+   window.currentUserTokens = 5; // give user tokens to access mess
   const hamburgerMenu = document.getElementById("hamburger-menu");
   const sidebar = document.getElementById("sidebar");
   const overlay = document.getElementById("overlay");
